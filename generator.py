@@ -15,7 +15,7 @@ class StoryGenerator():
     
         seed = None
         batch_size=1
-        model_path='gpt2/models/117M'
+        model_path='models/1558M'
         self.sess = sess
     
         self.enc = encoder.get_encoder(model_path)
